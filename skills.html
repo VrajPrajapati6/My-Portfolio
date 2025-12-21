@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skills | Vraj Prajapati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        /* Specific Styles for Skill Progress Bars */
+        .skill-item {
+            margin-bottom: 20px;
+        }
+        .skill-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .skill-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: #e5e7eb;
+        }
+        .skill-level-tag {
+            font-size: 11px;
+            padding: 2px 10px;
+            border-radius: 12px;
+            background: rgba(56, 189, 248, 0.1);
+            color: #38bdf8;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+        .progress-bar-container {
+            width: 100%;
+            height: 8px;
+            background: #1e293b;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #38bdf8 0%, #818cf8 100%);
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+        }
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+        .category-header i {
+            font-size: 24px;
+            color: #38bdf8;
+        }
+        .category-header h3 {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">&lt;/&gt; Vraj Prajapati</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a class="active" href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="section">
+    <div style="text-align: center; margin-bottom: 60px;">
+        <h1 class="section-title" style="font-size: 40px; margin-bottom: 10px;">Skills</h1>
+        <p style="color: #9ca3af; font-size: 18px;">Technologies and tools I work with</p>
+    </div>
+
+    <div class="skills-grid">
+        <div class="data-card">
+            <div class="category-header">
+                <i class='bx bx-code-alt'></i>
+                <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">C++</span><span class="skill-level-tag">Strong</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Python</span><span class="skill-level-tag">Comfortable</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Java</span><span class="skill-level-tag">Academic</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-level-tag">Web Development</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 70%;"></div></div>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <div class="category-header">
+                <i class='bx bx-layer'></i>
+                <h3>Data Structures & Algorithms</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Arrays & Strings</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Linked Lists</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Trees & Graphs</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Dynamic Programming</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 50%;"></div></div>
+            </div>
+        </div>
+
+        <div class="data-card">
+            <div class="category-header">
+                <i class='bx bx-globe'></i>
+                <h3>Web Development</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">HTML/CSS</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Javascript</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Jquery & Angular.js</span><span class="skill-level-tag">Academic</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">MERN Stack</span><span class="skill-level-tag">Learning</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 60%;"></div></div>
+            </div>
+        </div>
+        
+        <div class="data-card">
+            <div class="category-header">
+                <i class='bx bx-wrench'></i>
+                <h3>Tools & Platforms</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Git & GitHub</span><span class="skill-level-tag">Intermediate</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">LeetCode</span><span class="skill-level-tag">Strong</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 91%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span class="skill-name">Codeforces</span><span class="skill-level-tag">Strong</span></div>
+                <div class="progress-bar-container"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+        </div>
+        <div class="data-card">
+            <div class="category-header">
+                <i class='bx bx-plus-circle'></i>
+                <h3>Others</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span class="skill-name">Technology Adaptability</span>
+                    <span class="skill-level-tag">Fast Learner</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="width: 95%;"></div>
+                </div>
+                <p style="font-size: 12px; color: #9ca3af; margin-top: 5px;">Adept at learning new technologies rapidly</p>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span class="skill-name">Team Leading</span>
+                    <span class="skill-level-tag">Hackathons</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span class="skill-name">Communication</span>
+                    <span class="skill-level-tag">Above Average</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-fill" style="width: 80%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer section footer-section">
+    <div class="footer-contact">
+        <a href="mailto:vrajprajapati6004@gmail.com"><i class='bx bx-envelope'></i> vrajprajapati6004@gmail.com</a>
+        <div class="social-links">
+            <a href="https://github.com/VrajPrajapati6" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/vraj-prajapati-47694832a" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+    <p class="footer-bottom">© 2025 Vraj Prajapati. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
