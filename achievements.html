@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Achievements | Vraj Prajapati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        .achievements-hero {
+            border: 1px solid transparent;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 50px;
+            background: linear-gradient(#020617, #020617) padding-box, 
+                        linear-gradient(to right, #38bdf8, #818cf8) border-box;
+            border: 1px solid transparent;
+        }
+
+        .platform-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .platform-card {
+            background: #030a1f;
+            border: 1px solid #1f2a44;
+            border-radius: 12px;
+            padding: 25px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .platform-card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+        }
+
+        .platform-tag {
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .view-profile {
+            color: #9ca3af;
+            text-decoration: none;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 20px;
+            transition: color 0.3s;
+            justify-content: flex-end;
+        }
+
+        .view-profile:hover {
+            color: #38bdf8;
+        }
+
+        .award-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        @media (max-width: 768px) {
+            .award-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">&lt;/&gt; Vraj Prajapati</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="active" href="achievements.html">Achievements</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="section">
+    <div style="text-align: center; margin-bottom: 40px;">
+        <h1 class="section-title" style="font-size: 48px; margin-bottom: 10px;">Achievements</h1>
+        <p style="color: #9ca3af; font-size: 18px;">Competitive programming milestones and hackathon wins</p>
+    </div>
+
+    <div class="achievements-hero">
+        <div style="background: rgba(56, 189, 248, 0.1); display: inline-flex; padding: 15px; border-radius: 50%; margin-bottom: 15px;">
+            <i class='bx bx-code-curly' style="font-size: 40px; color: #38bdf8;"></i>
+        </div>
+        <h2 style="font-size: 56px; font-weight: 800; margin-bottom: 5px; background: linear-gradient(to right, #fff, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">900+</h2>
+        <p style="font-size: 20px; color: #9ca3af; letter-spacing: 2px; text-transform: uppercase;">DSA Problems Solved</p>
+    </div>
+
+    <h3 style="color: #38bdf8; margin-bottom: 25px; font-family: monospace; font-size: 22px; display: flex; align-items: center; gap: 10px;">
+        <i class='bx bxs-zap' ></i> &lt; Competitive Programming Platforms /&gt;
+    </h3>
+
+    <div class="platform-grid">
+        <div class="platform-card">
+            <span class="platform-tag" style="background: rgba(255, 161, 22, 0.1); color: #ffa116;">LeetCode</span>
+            <div style="margin-top: 10px;">
+                <h4 style="font-size: 32px; margin-bottom: 0;">300+</h4>
+                <p style="color: #9ca3af; font-size: 14px; margin-bottom: 15px;">Problems Solved</p>
+                <div style="height: 1px; background: #1f2a44; margin-bottom: 15px;"></div>
+                <h4 style="font-size: 24px; color: #38bdf8; margin-bottom: 0;">1643</h4>
+                <p style="color: #9ca3af; font-size: 14px;">Contest Rating</p>
+            </div>
+            <a href="https://leetcode.com/u/VrajPrajapati/" target="_blank" class="view-profile">View Profile <i class='bx bx-link-external'></i></a>
+        </div>
+
+        <div class="platform-card">
+            <span class="platform-tag" style="background: rgba(56, 189, 248, 0.1); color: #38bdf8;">Codeforces</span>
+            <div style="margin-top: 10px;">
+                <h4 style="font-size: 32px; margin-bottom: 0;">530+</h4>
+                <p style="color: #9ca3af; font-size: 14px; margin-bottom: 15px;">Problems Solved</p>
+                <div style="height: 1px; background: #1f2a44; margin-bottom: 15px;"></div>
+                <h4 style="font-size: 24px; color: #38bdf8; margin-bottom: 0;">1341 <span style="font-size: 14px; color: #9ca3af;">(Pupil)</span></h4>
+                <p style="color: #9ca3af; font-size: 14px;">Contest Rating</p>
+            </div>
+            <a href="https://codeforces.com/profile/Vraj_60" target="_blank" class="view-profile">View Profile <i class='bx bx-link-external'></i></a>
+        </div>
+
+        <div class="platform-card">
+            <span class="platform-tag" style="background: rgba(139, 69, 19, 0.1); color: #a52a2a;">CodeChef</span>
+            <div style="margin-top: 10px;">
+                <h4 style="font-size: 32px; margin-bottom: 0;">90+</h4>
+                <p style="color: #9ca3af; font-size: 14px; margin-bottom: 15px;">Problems Solved</p>
+                <div style="height: 1px; background: #1f2a44; margin-bottom: 15px;"></div>
+                <h4 style="font-size: 24px; color: #38bdf8; margin-bottom: 0;">2-Star</h4>
+                <p style="color: #9ca3af; font-size: 14px;">Level</p>
+            </div>
+            <a href="https://www.codechef.com/users/vraj_60" target="_blank" class="view-profile">View Profile <i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+    <h3 style="color: #38bdf8; margin-bottom: 25px; font-family: monospace; font-size: 22px; display: flex; align-items: center; gap: 10px;">
+        <i class='bx bxs-trophy' ></i> &lt; Hackathons & Awards /&gt;
+    </h3>
+
+    <div class="award-row">
+        <div class="data-card" style="display: flex; gap: 20px; align-items: center; padding: 25px;">
+            <div style="background: rgba(56, 189, 248, 0.1); padding: 15px; border-radius: 12px;">
+                <i class='bx bxs-trophy' style="font-size: 32px; color: #38bdf8;"></i>
+            </div>
+            <div>
+                <h4 style="font-size: 18px; margin-bottom: 2px;">Winner - CPL 2025</h4>
+                <p style="color: #38bdf8; font-size: 14px; margin-bottom: 5px;">CodeAdda Premium League</p>
+                <p style="color: #9ca3af; font-size: 13px;">Ranked 1st in the university-level competitive programming contest.</p>
+            </div>
+        </div>
+
+        <div class="data-card" style="display: flex; gap: 20px; align-items: center; padding: 25px;">
+            <div style="background: rgba(56, 189, 248, 0.1); padding: 15px; border-radius: 12px;">
+                <i class='bx bxs-bullseye' style="font-size: 32px; color: #38bdf8;"></i>
+            </div>
+            <div>
+                <h4 style="font-size: 18px; margin-bottom: 2px;">Smart India Hackathon 2025</h4>
+                <p style="color: #38bdf8; font-size: 14px; margin-bottom: 5px;">Internal Round Selection</p>
+                <p style="color: #9ca3af; font-size: 13px;">Selected among the Top 60 teams out of 150 participants.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer section footer-section">
+    <div class="footer-contact">
+        <a href="mailto:vrajprajapati6004@gmail.com"><i class='bx bx-envelope'></i> vrajprajapati6004@gmail.com</a>
+        <div class="social-links">
+            <a href="https://github.com/VrajPrajapati6" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/vraj-prajapati-47694832a" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+    <p class="footer-bottom">© 2025 Vraj Prajapati. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

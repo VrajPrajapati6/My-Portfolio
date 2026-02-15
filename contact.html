@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Vraj Prajapati</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .contact-info-card {
+            background: #030a1f;
+            border: 1px solid #1f2a44;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            transition: border-color 0.3s ease;
+        }
+
+        .contact-info-card:hover {
+            border-color: #38bdf8;
+        }
+
+        .contact-icon {
+            font-size: 28px;
+            color: #38bdf8;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .contact-info-card h4 {
+            color: #9ca3af;
+            font-size: 14px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .contact-info-card p {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        /* Gradient Border Section */
+        .gradient-border-box {
+            border: 1px solid transparent;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            background: linear-gradient(#020617, #020617) padding-box, 
+                        linear-gradient(to right, #38bdf8, #818cf8) border-box;
+            border: 1px solid transparent;
+        }
+
+        .social-connect-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .social-link-card {
+            background: #0f172a;
+            border: 1px solid #1f2a44;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .social-link-card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+        }
+
+        .social-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .social-icon-bg {
+            background: rgba(56, 189, 248, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            color: #38bdf8;
+            font-size: 22px;
+        }
+
+        .social-text h5 {
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 2px;
+            text-align: left;
+        }
+
+        .social-text p {
+            color: #9ca3af;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .arrow-icon {
+            color: #9ca3af;
+            font-size: 18px;
+        }
+
+        /* Email Button Styling */
+        .email-cta-btn {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            color: #020617;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 25px;
+            transition: opacity 0.3s;
+        }
+
+        .email-cta-btn:hover {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            .social-connect-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">&lt;/&gt; Vraj Prajapati</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="section">
+    <div style="text-align: center; margin-bottom: 50px;">
+        <h1 class="section-title" style="font-size: 48px; margin-bottom: 15px; color: #38bdf8;">Contact</h1>
+        <p style="color: #9ca3af; font-size: 18px;">Get in touch with me for opportunities or collaborations</p>
+    </div>
+
+    <div class="contact-grid">
+        <div class="contact-info-card">
+            <i class='bx bx-envelope contact-icon'></i>
+            <h4>Email</h4>
+            <p>vrajprajapati6004@gmail.com</p>
+        </div>
+        <div class="contact-info-card">
+            <i class='bx bx-phone contact-icon'></i>
+            <h4>Phone</h4>
+            <p>+91 987****351</p>
+        </div>
+        <div class="contact-info-card">
+            <i class='bx bx-map-pin contact-icon'></i>
+            <h4>Location</h4>
+            <p>Ahmedabad, Gujarat</p>
+        </div>
+    </div>
+
+    <div class="gradient-border-box">
+        <h3 style="color: #38bdf8; font-family: monospace; font-size: 22px;">&lt;Connect With Me /&gt;</h3>
+        
+        <div class="social-connect-grid">
+            <a href="https://www.linkedin.com/in/vraj-prajapati-47694832a" target="_blank" class="social-link-card">
+                <div class="social-content">
+                    <div class="social-icon-bg"><i class='bx bxl-linkedin'></i></div>
+                    <div class="social-text">
+                        <h5>LinkedIn</h5>
+                        <p>linkedin.com/in/vraj-prajapati-476...</p>
+                    </div>
+                </div>
+                <i class='bx bx-paper-plane arrow-icon'></i>
+            </a>
+
+            <a href="https://github.com/VrajPrajapati6" target="_blank" class="social-link-card">
+                <div class="social-content">
+                    <div class="social-icon-bg"><i class='bx bxl-github'></i></div>
+                    <div class="social-text">
+                        <h5>GitHub</h5>
+                        <p>github.com/VrajPrajapati6</p>
+                    </div>
+                </div>
+                <i class='bx bx-paper-plane arrow-icon'></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="gradient-border-box">
+        <h2 style="font-size: 32px; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 15px;">Let's Build Something Amazing</h2>
+        <p style="color: #9ca3af; max-width: 600px; margin: 0 auto; line-height: 1.6;">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+        
+        <a href="mailto:vrajprajapati6004@gmail.com" class="email-cta-btn">
+            <i class='bx bx-envelope'></i> Send Me an Email
+        </a>
+    </div>
+</section>
+
+<footer class="footer section footer-section">
+    <div class="footer-contact">
+        <a href="mailto:vrajprajapati6004@gmail.com">
+            <i class='bx bx-envelope'></i> vrajprajapati6004@gmail.com
+        </a>
+        <div class="social-links">
+            <a href="https://github.com/VrajPrajapati6" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/vraj-prajapati-47694832a" target="_blank">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+        </div>
+    </div>
+    <p class="footer-bottom">© 2025 Vraj Prajapati. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
